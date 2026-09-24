@@ -1,0 +1,33 @@
+{
+  "paired_questions": 500,
+  "direct": {
+    "n": 500,
+    "correct": 442,
+    "accuracy": 0.884,
+    "wilson_95_ci": [
+      0.8529581630365658,
+      0.9091863434889621
+    ],
+    "mean_seconds": 27.056219999999996,
+    "median_seconds": 11.999,
+    "errors": 0
+  },
+  "verify": {
+    "n": 500,
+    "correct": 448,
+    "accuracy": 0.896,
+    "wilson_95_ci": [
+      0.8661557291243417,
+      0.919805793230109
+    ],
+    "mean_seconds": 33.620299999999986,
+    "median_seconds": 18.468,
+    "errors": 0
+  },
+  "accuracy_difference_verify_minus_direct": 0.01200000000000001,
+  "mean_latency_difference_seconds": 6.56407999999999,
+  "discordant_direct_wrong_verify_correct": 15,
+  "discordant_direct_correct_verify_wrong": 9,
+  "changed_final_option": 33,
+  "mcnemar_exact_two_sided_p": 0.30745625495910645
+}

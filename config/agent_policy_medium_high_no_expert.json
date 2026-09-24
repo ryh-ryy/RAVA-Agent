@@ -1,0 +1,10 @@
+{
+  "policy_version": "0.3-no-expert-medium-high-ablation",
+  "parent_policy": "0.3-no-expert-conservative-research",
+  "purpose": "CMB-Exam engineering ablation only. This is not a clinical risk classifier.",
+  "high_risk_terms": ["胸痛", "呼吸困难", "昏迷", "意识障碍", "抽搐", "晕厥", "休克", "低血压", "大出血", "呕血", "咯血", "便血", "黑便", "单侧无力", "口角歪斜", "言语不清", "自杀", "自伤", "过敏性休克", "严重过敏", "急诊", "剂量", "处方", "禁忌"],
+  "medium_risk_terms": ["诊断", "治疗", "用药", "药物", "检查", "鉴别", "手术", "病史", "肿瘤", "感染", "高血压", "糖尿病"],
+  "frozen_for_experiment": true,
+  "freeze_date": "2026-09-20",
+  "change_control": "This mirrors the original routing vocabulary. Do not alter terms after seeing results from the independent test seed."
+}

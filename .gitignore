@@ -1,0 +1,23 @@
+# Secrets and local settings
+.env
+.env.*
+*.pem
+*.key
+*api_key*
+*apikey*
+*secret*
+
+# Unlicensed benchmark copies and per-item logs
+data/raw/
+data/*.json
+data/*.jsonl
+results/*.jsonl
+results/private/
+
+# Local editor and Python outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+

@@ -1,0 +1,22 @@
+{
+  "policy_version": "0.3-no-expert-conservative-research",
+  "clinical_review_status": "NO EXPERT APPROVAL: 仅用于工程与流程实验。不得把结果写为临床安全性、风险识别准确性或临床有效性。",
+  "intended_use": "去标识化、公开病例上的审计链路测试。输出仅供研究，不面向真实患者。",
+  "high_risk_terms": ["胸痛", "呼吸困难", "昏迷", "意识障碍", "抽搐", "晕厥", "休克", "低血压", "大出血", "呕血", "咯血", "便血", "黑便", "单侧无力", "口角歪斜", "言语不清", "自杀", "自伤", "过敏性休克", "严重过敏", "急诊", "剂量", "处方", "禁忌"],
+  "medium_risk_terms": ["诊断", "治疗", "用药", "药物", "检查", "鉴别", "手术", "病史", "肿瘤", "感染", "高血压", "糖尿病"],
+  "handoff_if_no_evidence_for_high_risk": true,
+  "force_handoff_risks": ["high"],
+  "retrieval_top_k": 3,
+  "retrieval_min_score": 1,
+  "evidence_relevance_terms": {
+    "GOV_AI_001": ["人工智能", "医疗人工智能", "算法治理"],
+    "GOV_LLM_002": ["大语言模型", "LLM", "生成式人工智能"],
+    "EMERG_REF_003": ["急诊", "转诊", "急性病伤", "院前急救"],
+    "EMERG_STROKE_004": ["脑卒中", "单侧无力", "口角歪斜", "言语不清", "突发视力", "突发头痛"],
+    "EMERG_CARDIO_005": ["心肌梗死", "胸痛", "胸部不适", "呼吸困难", "晕厥"]
+  },
+  "no_expert_rule": "高风险病例无论是否检索到条目，最终输出必须为保守转人工文本；中风险且无足够相关证据时，最终输出也必须为保守转人工文本。两种情况均不得保留模型初始诊断式回答。",
+  "frozen_for_experiment": true,
+  "freeze_date": "2026-09-17",
+  "change_control": "本版本仅用于无专家阶段的工程测试。任何临床评审或临床性能研究必须另建经专家批准的版本。"
+}
