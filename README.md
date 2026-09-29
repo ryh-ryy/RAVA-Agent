@@ -1,5 +1,7 @@
 # RAVA-Agent: Auditable Risk-Aware Evidence Verification
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22942075.svg)](https://doi.org/10.5281/zenodo.22942075)
+
 This repository accompanies the submission **“An Auditable Risk-Aware Verification Agent for Medical Question Answering: Selective Self-Verification and Resource Allocation Across Large Language Models.”**
 
 RAVA-Agent represents risk routing, evidence retrieval, selective same-model verification, conservative handoff, and audit logging as explicit agent actions. This release supports **engineering reproducibility only**. It does not establish clinical correctness, safety, risk-recognition accuracy, evidence adequacy, or handoff appropriateness.
@@ -40,5 +42,7 @@ The policies are researcher specified and were not independently approved by med
 
 ## Citation
 
-Add the final paper citation and repository DOI here after acceptance/archive creation.
+Reproducibility archive: https://doi.org/10.5281/zenodo.22942075.
+
+If you use this release, please cite the Zenodo archive. The manuscript citation will be added after publication.
 

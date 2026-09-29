@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the Zenodo archive."
+title: "RAVA-Agent: Auditable Risk-Aware Evidence Verification"
+version: "0.1.0"
+doi: "10.5281/zenodo.22942075"
+url: "https://doi.org/10.5281/zenodo.22942075"
+date-released: "2026-09-29"
+abstract: "Frozen policies, scripts, manifests, aggregate results, and figures for engineering reproducibility of RAVA-Agent."
