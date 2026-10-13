@@ -46,3 +46,21 @@ Reproducibility archive: https://doi.org/10.5281/zenodo.22942075.
 
 If you use this release, please cite the Zenodo archive. The manuscript citation will be added after publication.
 
+## External evaluation update
+
+The MedQA external evaluation is available in
+[medqa_external_update](medqa_external_update/README.md).
+
+The update includes direct answering, same-model verification,
+cross-model verification, and independent verifier-model answering.
+
+Results are exploratory. Cross-model verification did not demonstrate
+statistically significant superiority over independent answering.
+Same-model verification included 26 truncated, unparsed responses.
+
+The budget analysis reuses stored responses retrospectively.
+It is not a prospective selective-policy experiment.
+
+Only code and aggregate results are distributed. Source questions,
+answer keys, raw response logs, full case annotations, and API
+credentials are excluded.
