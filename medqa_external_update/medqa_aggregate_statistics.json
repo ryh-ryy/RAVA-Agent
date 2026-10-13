@@ -1,0 +1,103 @@
+{
+  "policy": "Primary: first non-transport-error response per case; transport retries reported separately. Unparsed responses count as incorrect.",
+  "groups": {
+    "direct": {
+      "n": 1273,
+      "correct": 1092,
+      "unparsed": 0,
+      "recorded_attempts": 1273,
+      "transport_errors": 0,
+      "response_retries": 0,
+      "observed_total_tokens": 358839
+    },
+    "self": {
+      "n": 1273,
+      "correct": 1076,
+      "unparsed": 26,
+      "recorded_attempts": 1273,
+      "transport_errors": 0,
+      "response_retries": 0,
+      "observed_total_tokens": 387549
+    },
+    "cross": {
+      "n": 1273,
+      "correct": 1104,
+      "unparsed": 0,
+      "recorded_attempts": 1273,
+      "transport_errors": 0,
+      "response_retries": 0,
+      "observed_total_tokens": 353159
+    },
+    "independent": {
+      "n": 1273,
+      "correct": 1099,
+      "unparsed": 1,
+      "recorded_attempts": 1275,
+      "transport_errors": 1,
+      "response_retries": 1,
+      "observed_total_tokens": 326597
+    }
+  },
+  "pairs": [
+    {
+      "reference": "direct",
+      "comparison": "cross",
+      "n": 1273,
+      "corrected": 53,
+      "degraded": 41,
+      "changed_or_unparsed": 103,
+      "accuracy_difference": 0.009426551453260016,
+      "mcnemar_exact_p": 0.25644234893296924,
+      "holm_p": 0.7693270467989077,
+      "paired_wald_95_ci": [
+        -0.005492119128421414,
+        0.024345222034941445
+      ]
+    },
+    {
+      "reference": "independent",
+      "comparison": "cross",
+      "n": 1273,
+      "corrected": 40,
+      "degraded": 35,
+      "changed_or_unparsed": 99,
+      "accuracy_difference": 0.003927729772191673,
+      "mcnemar_exact_p": 0.644463913894226,
+      "holm_p": 1.0,
+      "paired_wald_95_ci": [
+        -0.0094044583239226,
+        0.017259917868305948
+      ]
+    },
+    {
+      "reference": "direct",
+      "comparison": "independent",
+      "n": 1273,
+      "corrected": 76,
+      "degraded": 69,
+      "changed_or_unparsed": 176,
+      "accuracy_difference": 0.0054988216810683424,
+      "mcnemar_exact_p": 0.618445466038815,
+      "holm_p": 1.0,
+      "paired_wald_95_ci": [
+        -0.013038800103559858,
+        0.02403644346569654
+      ]
+    },
+    {
+      "reference": "direct",
+      "comparison": "self",
+      "n": 1273,
+      "corrected": 13,
+      "degraded": 29,
+      "changed_or_unparsed": 58,
+      "accuracy_difference": -0.012568735271013355,
+      "mcnemar_exact_p": 0.019520472782460274,
+      "holm_p": 0.0780818911298411,
+      "paired_wald_95_ci": [
+        -0.02252302083294601,
+        -0.0026144497090807035
+      ]
+    }
+  ]
+}

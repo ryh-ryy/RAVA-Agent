@@ -1,0 +1,28 @@
+{
+  "cases": 94,
+  "confirmed": 94,
+  "outcomes": {
+    "corrected": 53,
+    "degraded": 41
+  },
+  "labels": {
+    "corrected": {
+      "相近选项辨别": 46,
+      "图像信息缺失": 4,
+      "关键条件识别": 50,
+      "题目或答案存疑": 1,
+      "计算问题": 4,
+      "否定／限定词": 2,
+      "无法判断": 1
+    },
+    "degraded": {
+      "关键条件识别": 41,
+      "相近选项辨别": 38,
+      "图像信息缺失": 4,
+      "题目或答案存疑": 2,
+      "无法判断": 3,
+      "否定／限定词": 1
+    }
+  },
+  "scope": "Single-author confirmation of AI-assisted revisions; multilabel, selected correctness-changing cases, not independent clinical adjudication."
+}

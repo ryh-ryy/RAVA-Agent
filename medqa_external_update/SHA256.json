@@ -1,0 +1,12 @@
+{
+  "additional_local_analyses.json": "ec4a40b81d928b0dd53809dba1a1fff6ad6410c2821e6b8fd516e8093ecd5805",
+  "analyze_medqa_external.py": "3fd8023a2efd4911e38494f0f6e72d284f4c501b9cd2ccda2d8ababb719da097",
+  "medqa_aggregate_statistics.json": "415db484787a99c6d8d281e550e03fbf67bebeb8e34eb472d9ccdef4e4b87829",
+  "medqa_external.py": "4f1abea05452d11f49303da3375d1dd061335eae172b93034ee5f09e1358cb68",
+  "offline_budget_replay.json": "866c3405c79bafb754a1fc585072c5d72d385bab7478085d9ce47026323d8004",
+  "README.md": "30ae05c43abb6baee277d6e2b5367b9c43c6edae0d1ef75e865a0f395b1b91d6",
+  "requirements.txt": "5f14a5348b8ef2626aa2814b1275f30ebab01001897f83e7c942c548391655ec",
+  "review_aggregate_statistics.json": "a156755d339e89ad0600a979ace890b9c9619b96e35e9cefa28795f6e9663364",
+  "run_cmb_exam.py": "725dfe65eadb1295e5dbdd6e6dfda82e9220f699e2e26972ccfcb0fc8c339919",
+  "test_medqa_external.py": "ae13aa6aa6fa8e6a37201687f86cee9db1bc95ae75503f62b13ec6b0003dfa4d"
+}
