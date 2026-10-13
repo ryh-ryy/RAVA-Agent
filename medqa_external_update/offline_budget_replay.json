@@ -1,0 +1,98 @@
+{
+  "n": 1273,
+  "budgets": [
+    {
+      "calls_selected": 0,
+      "rate": 0.0,
+      "correct_mean": 1092,
+      "correct_min": 1092,
+      "correct_max": 1092,
+      "correct_sd": 0.0,
+      "accuracy_mean": 0.8578161822466615,
+      "observed_tokens_mean": 358839
+    },
+    {
+      "calls_selected": 64,
+      "rate": 0.05027494108405342,
+      "correct_mean": 1092.45,
+      "correct_min": 1089,
+      "correct_max": 1099,
+      "correct_sd": 2.4596747752497685,
+      "accuracy_mean": 0.8581696779261587,
+      "observed_tokens_mean": 376525.15
+    },
+    {
+      "calls_selected": 127,
+      "rate": 0.0997643362136685,
+      "correct_mean": 1092.85,
+      "correct_min": 1089,
+      "correct_max": 1098,
+      "correct_sd": 2.852053738328889,
+      "accuracy_mean": 0.858483896307934,
+      "observed_tokens_mean": 393800.9
+    },
+    {
+      "calls_selected": 255,
+      "rate": 0.20031421838177532,
+      "correct_mean": 1094.05,
+      "correct_min": 1086,
+      "correct_max": 1104,
+      "correct_sd": 4.465953072089458,
+      "accuracy_mean": 0.85942655145326,
+      "observed_tokens_mean": 428983.55
+    },
+    {
+      "calls_selected": 446,
+      "rate": 0.35035349567949725,
+      "correct_mean": 1095.75,
+      "correct_min": 1086,
+      "correct_max": 1107,
+      "correct_sd": 5.398586559656635,
+      "accuracy_mean": 0.8607619795758051,
+      "observed_tokens_mean": 481784.7
+    },
+    {
+      "calls_selected": 636,
+      "rate": 0.4996072270227808,
+      "correct_mean": 1098.25,
+      "correct_min": 1085,
+      "correct_max": 1108,
+      "correct_sd": 6.077352262812794,
+      "accuracy_mean": 0.862725844461901,
+      "observed_tokens_mean": 534504.95
+    },
+    {
+      "calls_selected": 1273,
+      "rate": 1.0,
+      "correct_mean": 1104,
+      "correct_min": 1104,
+      "correct_max": 1104,
+      "correct_sd": 0.0,
+      "accuracy_mean": 0.8672427336999214,
+      "observed_tokens_mean": 711998
+    }
+  ],
+  "seeds": [
+    20261011,
+    20261012,
+    20261013,
+    20261014,
+    20261015,
+    20261016,
+    20261017,
+    20261018,
+    20261019,
+    20261020,
+    20261021,
+    20261022,
+    20261023,
+    20261024,
+    20261025,
+    20261026,
+    20261027,
+    20261028,
+    20261029,
+    20261030
+  ],
+  "limit": "Retrospective counterfactual reuse of recorded responses, not prospective selective-policy trials; seed variation is allocation variation, not independent replication."
+}
